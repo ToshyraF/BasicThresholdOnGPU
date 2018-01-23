@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( BasicthresholdGPU )
+find_package( OpenCV REQUIRED )
+add_executable( BasicthresholdGPU BasicthresholdGPU.cpp )
+target_link_libraries( BasicthresholdGPU ${OpenCV_LIBS} )
