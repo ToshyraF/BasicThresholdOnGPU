@@ -1,2 +1,5 @@
 # BasicThresholdOnGPU
-GPU OpenCV C++
+# วิธีรันไฟล์โค้ด
+- camke .
+- make
+- ./BasicthresholdGPU
